@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+# dicchiaro il nome della rotta
+pinco_index:
+    path: /
+    # dichiaro il controller con il namespace de identificare e l'azione che dovrebber intraprendere
+    controller: App\Controller\HelloController::index
